@@ -21,9 +21,9 @@ export default function ProfileHeader() {
         <Image src={image} style={{ height: "150px" }} roundedCircle />
       </Col>
       <Col md={9}>
-        <p className="me-4" style={{ fontSize: "20px" }}>
+        <span className="me-4" style={{ fontSize: "20px" }}>
           {name}
-        </p>
+        </span>
         <Button className="me-2">Follow Back</Button>
         <Button variant="light me-2">Message</Button>
         <Button variant="light me-2">
